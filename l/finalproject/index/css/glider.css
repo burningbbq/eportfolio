@@ -1,0 +1,125 @@
+#all{
+	margin:auto;
+	width: 800px;
+}
+
+h3 {
+	font-size: 16px;
+	color:#006600;
+	}
+div.controls{
+	margin:10px;
+}
+#my-glider{
+	margin:auto;
+}
+
+#footer {
+	text-align:center;
+	width: 800px;
+	height: auto;
+	font-size:small;
+	padding-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url(../../images/down.jpg);
+
+
+}
+
+#footer a{
+	text-decoration: none;
+	color: #660000;
+}
+
+
+
+#footer a:hover{
+	text-decoration: none;
+	color: #FF9966;
+	background-color: #FFFFFF;
+}
+
+div.scroller {
+	/* modify width and height of scrolling section if necessary	*/		
+	width: 800px;
+	height: 650px;
+	overflow: hidden;
+	border:1px solid #cccccc;
+	margin: auto;
+	}
+	div.scroller div.section {
+		/* modify width and height of each section as needed (should match the size of the scroller window)	*/		
+		width:800px;
+		height:650px;
+		overflow:hidden;
+		float:left;
+		padding:1em;		
+		background-image:url(../bt/back.JPG);
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		border-right: none;
+		border-left: none;
+		}
+	div.scroller div.content {
+		width: 10000px;
+		}
+
+	div#section2 {
+	
+	color:#333333;
+	overflow:auto;
+	/* 以下為樣式設定可省略不要 */
+		border:#666;
+	scrollbar-arrow-color: #666;
+	scrollbar-face-color: #FFF;
+	scrollbar-track-color: #FFF;
+	scrollbar-highlight-color: #666;
+	/*scrollbar-shadow-color: #666;*/ 
+		scrollbar-3dlight-color: #FFF;
+	scrollbar-darkshadow-color: #FFF;
+	
+		
+		}
+	div#section3	
+	{
+		overflow:auto;
+		/* 以下為樣式設定可省略不要 */
+		border:1px solid #666;
+		scrollbar-arrow-color: #666; 
+		scrollbar-face-color: #FFF; 
+		scrollbar-track-color: #FFF; 
+		scrollbar-highlight-color: #666; 			
+		/*scrollbar-shadow-color: #666;*/ 
+		scrollbar-3dlight-color: #FFF; 
+		scrollbar-darkshadow-color: #FFF; 
+		}
+	div#section1{
+	padding:0;
+	}	
+.on{
+	color:#99CC00;
+	text-decoration:dotted ;
+}
+
+
+/*-------------連結顏色-------------*/
+
+
+
+
+a{
+	text-decoration: none;
+	color:#669900;
+	}
+
+a:hover{
+	background-color:#DBE8C1;
+	color:#999999;
+	}
+
+a:active{
+	background-color: #EDEEE8;
+	color:#FF3366;
+	text-decoration:dotted ;
+	}
